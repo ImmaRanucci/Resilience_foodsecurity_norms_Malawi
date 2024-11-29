@@ -18,12 +18,11 @@ The dataset available in this replication package contains cleaned data, includi
 ## Data Sources
 The World Bank LSMS survey data is publicly available for each survey round together with questionnaires, basic information documents, interview manuals, and metadata. Panel survey data and additional material can be accessed at the following link:
 - Integrated Household Panel Survey 2010-2013-2016: https://microdata.worldbank.org/index.php/catalog/2939
-The description of the cleaning process of household-level survey data is provided in the paper. 
 
 The Standardised Precipitation-Evapotranspiration Index (SPEI) time series can be downloaded as a single grid cell index for a selected geographical area at the following link:
 - Global Drought Monitor: https://spei.csic.es/map/maps.html#months=1#month=9#year=2024
 
-We provide the final version of the cleaned dataset (Data.dta), which contains all relevant variables used in the main analysis and robustness checks. 
+The cleaning process of household-level survey data, preparation of SPEI index, and merging of the two datasets is explained in the paper. We provide here the final version of the cleaned dataset (Data.dta), which contains all relevant variables used in the main analysis and robustness checks. 
 
 ## STATA code
 The Stata do file (Code.do) available in this replication package allows the reproduction of the tables and figures containing the main results presented in the paper. 
@@ -32,7 +31,7 @@ The Stata do file (Code.do) available in this replication package allows the rep
 Open the Code.do file and update the global "PATH" with your username in the Filepath section. 
 The Data.dta file should be saved in the folder that you indicate as PATH. 
 
-The code will generate sub-folders where results will be stored within the folder PATH.
+The code includes commands to generate sub-folders for storing results within the folder PATH.
 
 The following user-written STATA programs are necessary to run the analysis:
 - exbsample: https://www.stata.com/meeting/uk22/slides/UK22_Van_Kerm.pdf
