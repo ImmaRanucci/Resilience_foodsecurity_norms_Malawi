@@ -12,7 +12,7 @@ Replication code
 *** Filepath 
 
 clear all
-	gl  PATH "C:\Users\Huawei\Dropbox\WD-MWI Culture resilience\Replication_package"
+	gl  PATH "C:\Users\USERNAME\git\Resilience_foodsecurity_norms_Malawi"
 	cd "${PATH}"
 
 
