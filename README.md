@@ -1,9 +1,10 @@
 # Weather Shocks and Resilience to Food Insecurity: Exploring the Role of Gender and Kinship Norms - Replication Code
 This README describes the directory structure & Stata code necessary to replicate the main analysis presented in the paper "Weather Shocks and Resilience to Food Insecurity: Exploring the Role of Gender and Kinship Norms", authored by Immacolata Ranucci, Donato Romano, and Luca Tiberti, to be published in World Development. 
 
-The work relies on the Malawi Integrated Household Panel Survey (MIHPS) 2010-2013-2016, publicly accessible in the World Bank Microdata Library. Data is spatially merged with the Standardised Precipitation-Evapotranspiration Index (SPEI), publicly available in the database of the SPEI Global Drought Monitor.
-
 The dataset available in this replication package contains cleaned data, including constructed indicators. MIHS data is merged with SPEI data. This dataset includes all variables necessary to produce the main results and also all additional variables used in the robustness checks. We provide the STATA code to reproduce the main results presented in the paper (code for robustness checks is available upon request). 
+
+[![DOI](https://zenodo.org/badge/895882376.svg)](https://doi.org/10.5281/zenodo.14242898)
+
 
 ## Index
  - [Contributors](#contributors)
@@ -16,6 +17,8 @@ The dataset available in this replication package contains cleaned data, includi
 * Luca Tiberti
 
 ## Data Sources
+The work relies on the Malawi Integrated Household Panel Survey (MIHPS) 2010-2013-2016, part of the Living Standards Measurement Study (LSMS) project of the World Bank, publicly accessible in the World Bank Microdata Library. Data is spatially merged with the Standardised Precipitation-Evapotranspiration Index (SPEI), publicly available in the database of the SPEI Global Drought Monitor.
+
 The World Bank LSMS survey data is publicly available for each survey round together with questionnaires, basic information documents, interview manuals, and metadata. Panel survey data and additional material can be accessed at the following link:
 - Integrated Household Panel Survey 2010-2013-2016: https://microdata.worldbank.org/index.php/catalog/2939
 
